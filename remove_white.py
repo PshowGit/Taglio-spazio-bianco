@@ -48,7 +48,7 @@ def process_all_pdfs():
     try:
         threshold = int(threshold_entry.get())
     except ValueError:
-        messagebox.showerror("Errore", "Il margine deve essere un numero intero")
+        messagebox.showerror("Errore", "Il margine deve essere un numero intero ------")
         return
 
     if not input_folder or not output_folder:
